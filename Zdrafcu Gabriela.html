@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Zdrafcu Gabriela-Alina</title>
+<style>
+body {
+background-color: peachpuff;
+}
+h2 {
+color: mediumorchid;
+margin-left: 20px;
+text-align: center;
+}
+p {
+color: mediumblue;
+text-align: center;
+font-style: normal;
+}
+address {
+color: mediumblue;
+text-align: center;
+}
+table, tr, td {
+border-bottom-style: solid;
+margin-left: auto;
+margin-right: auto;
+}
+table {
+background-color: pink;
+}
+td {
+text-align: center;
+}
+il, li {
+list-style-image: url ('sqpurple.gif');
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+img {
+text-align: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 20%;
+border-radius: 8px;
+opacity: 0.5;
+}
+button {
+text-align: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+</style>
+
+<script>
+function myFunction() {
+  document.getElementById("nume").innerHTML = "Inginer Zdrafcu Gabriela";
+  document.getElementById("tabel1").innerHTML = "Sa aprofundez la acesata materie";
+  document.getElementById("tabel2").innerHTML = "Sa rezolv problemele la analiza matematica";
+  document.getElementById("tabel3").innerHTML = "Sa excelez in acest domeniu";
+  document.getElementById("th1").innerHTML = "Realizari";
+  document.getElementById("imagine").src = "imagine2.jpg";
+  document.body.style.backgroundColor="cornflowerblue";
+  document.getElementById("h21").style.color = "maroon";
+  document.getElementById("h22").style.color = "maroon";
+  document.getElementById("h23").style.color = "maroon";
+  document.getElementById("h24").style.color = "maroon";
+  document.getElementById("h25").style.color = "maroon";
+  document.getElementById("style").style.fontFamily = "Fantasy";
+  document.getElementById("imagine").style.opacity = "1";
+  document.getElementById("imagine").style.borderRadius = "10px";  
+}
+
+function mouseOver() {
+  document.getElementById("varsta").innerHTML = 2021-2002;
+  document.getElementById("varsta").style.color = "mediumorchid";
+}
+function mouseOut() {
+  document.getElementById("varsta").innerHTML = "Varsta";
+  document.getElementById("varsta").style.color = "mediumorchid";
+}
+</script>
+</head>
+<body id="style">
+
+<img id="imagine" src="Gabriela.jpg" width="300" height="400">
+<button onclick="myFunction()">Alta viata</button>
+<h2 id="h21">Date de identificare:</h2>
+<p id="nume">Nume: Zdrafcu Gabriela-Alina</p>
+<h2 id="varsta" onmouseover="mouseOver()" onmouseout="mouseOut()">Varsta</h2>
+<h2 id="h22">Date de contact:</h2>
+<address>gabyzdrafcu@gmail.com</address>
+<h2 id="h23">Citat reprezentativ:</h2>
+<p>“Educaţia este cea mai puternică armă pe care voi o puteţi folosi pentru a schimba lumea.” </p>
+<h2 id="h24">Discipline:</h2>
+<table>
+  <tr>
+    <th>Discipline</th>
+    <th>Anul</th>
+    <th id="th1">Descriere discipline</th>
+  </tr>
+  <tr>
+    <td>Componente si circuite pasive </td>
+    <td>Anul 1</td>
+    <td id="tabel1"><link>https://etti.utcluj.ro/files/Acasa/Site/FiseDisciplina/EaRo/05.pdf</link></td>
+  </tr>
+  <tr>
+    <td>Analiza matematica</td>
+    <td>Anul 1</td>
+    <td id="tabel2"><link>https://etti.utcluj.ro/files/Acasa/Site/FiseDisciplina/EaRo/01.pdf</link></td>
+  </tr>
+  <tr>
+  <td>Grafica asistata de calculator</td>
+  <td>Anul 2</td>
+  <td id="tabel3"><link>https://etti.utcluj.ro/files/Acasa/Site/FiseDisciplina/EaRo/15.pdf</link></td>
+     
+</table>
+
+<h2 id="h25">Hobby-uri:</h2>
+<ul>
+  <li>Desenul</li>
+  <li>Lectura</li>
+  <li>Gatitul</li>
+  <li>Calatoriile</li>
+  <li>Filmele</li>
+ 
+</ul>  
+
+</body>
+</html>
